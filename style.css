@@ -1,0 +1,127 @@
+.calc{
+  width: 200px;
+  height: 300px;
+  border: solid 1px black;
+  padding:10px;
+  display:grid;
+  grid-template-areas:
+   "visor visor visor visor visor"
+   "sete oito nove CE C"
+   "quatro cinco seis dividir multiplicar"
+   "um dois tres menos mais"
+   "zer zer ponto igual mais";
+   grid-template-rows: repeat(5, 1fr);
+   grid-template-columns: repeat(5, 1fr);
+
+
+}
+
+.visor{
+  grid-area:visor;
+  margin: 5px 3px;
+  background-color: inherit;
+  border: solid 2px lightgray;
+  text-align: right;
+  font-size: 25px;
+}
+
+.zer{
+  grid-area:zer;
+}
+
+.um{
+  grid-area:um;
+}
+
+.dois{
+  grid-area:dois;
+}
+
+.tres{
+  grid-area:tres;
+}
+
+.quatro{
+  grid-area:quatro;
+}
+
+.cinco{
+  grid-area:cinco;
+}
+
+.seis{
+  grid-area:seis;
+}
+
+.sete{
+  grid-area:sete;
+}
+
+.oito{
+  grid-area:oito;
+}
+
+.nove{
+  grid-area:nove;
+}
+
+.C {
+  grid-area:C;
+  background-color: #EA5146 !important ;
+  color:white !important ;
+}
+
+.C:hover{
+  background-color: #9E0800 !important ;
+}
+
+.C:active{
+  background-color: red !important ;
+}
+
+.CE{
+  grid-area:CE;
+}
+
+.mais{
+  grid-area:mais;
+}
+
+.menos{
+  grid-area:menos;
+}
+
+.dividir{
+  grid-area:dividir;
+}
+
+.multiplicar{
+  grid-area:multiplicar;
+}
+
+.ponto{
+  grid-area:ponto;
+}
+
+.igual{
+  grid-area:igual;
+}
+
+button {
+  width: auto;
+  height: auto;
+  margin: 3px;
+  background-color: inherit ;
+  border: solid 0.5px lightgrey;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover{
+  background-color: #F0F0F0;
+}
+
+button:active{
+  background-color: darkgrey;
+  color: lightgray;
+}
+

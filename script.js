@@ -119,3 +119,8 @@ function converterParaNumero() {
  /*para o ponto é necessário fazer um if para verificar se já existe um ponto no visor, caso já exista
  então não é possivel adicionar outro ponto(ou virgula), colocar outro if caso não exista nenhum numero,
  ao clicar na virgula o Zero é adicionado junto com a virgula*/
+
+ /* Para reiniciar a calculadora, após o resultado, colocar um evento onclick para que quando 
+ acionar um dos botoes de numero, apagada a operação anterior
+ Adicionar uma cadeia condicional para que possa ser feito mais operações 
+ */
